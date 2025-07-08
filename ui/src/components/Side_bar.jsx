@@ -22,7 +22,7 @@ export function SideBar({ isOpen = true, onToggle }) {
   ];
 
   return (
-    <div className={`${isOpen ? 'w-64' : 'w-16'} h-screen bg-white border-r border-gray-200 shadow-sm transition-all duration-300 ease-in-out`}>
+    <div className={`${isOpen ? 'w-64' : 'w-16'} h-screen bg-white border-r border-gray-200 shadow-lg transition-all duration-300 ease-in-out`}>
       <div className="p-4 flex items-center justify-between">
         {isOpen && <h2 className="text-lg font-semibold text-gray-900">Menu</h2>}
         <button
