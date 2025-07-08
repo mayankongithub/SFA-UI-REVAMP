@@ -16,9 +16,9 @@ const Navbar = ({ submit }) => {
   }, []);
 
   return (
-    <div className="w-full flex justify-center py-2 sticky top-4 z-50 mt-4"
+    <div className="w-full bg-white flex justify-center py-2 sticky top-4 z-50 mt-4"
          style={{
-           backgroundColor: 'transparent',
+           backgroundColor: 'white',
            width: '100%'
          }}>
       <nav className="flex items-center justify-between text-white px-6 h-16 w-full rounded-full shadow-lg"
